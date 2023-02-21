@@ -1,7 +1,7 @@
 # Sign-off-Timing-Analysis - Basics-to-Advanced
 5- day workshop where I covered all the basic concepts in STA and Timing constraints.
 
-## DAY 1
+## DAY 1 Day 1
 ### LAB 1
 
 <img width="800" alt="run_log_1" src="https://user-images.githubusercontent.com/125822919/220407405-2cac5241-cdbe-4d10-859b-6bf1b29db761.png">
