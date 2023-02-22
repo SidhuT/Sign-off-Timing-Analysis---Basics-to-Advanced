@@ -199,7 +199,7 @@ STA Text report
 <img width="800" alt="out_txt_2_4" src="https://user-images.githubusercontent.com/125822919/220539451-0f45e902-20ba-4b89-bad2-6895eb8c8b1d.png">
 <img width="800" alt="out_txt_2_5" src="https://user-images.githubusercontent.com/125822919/220539465-a4f89c8f-435f-433e-8458-b7b3f235b07e.png">
 
-# **[DAY 4]**
+# **[DAY 4](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced/blob/main/README.md#day-4)**
 
 CROSSTALK and NOISE
 
@@ -213,7 +213,7 @@ Checks on Asyn Pins
 
 
 
-# **[DAY 5]()**
+# **[DAY 5](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced/blob/main/README.md#day-5)**
 
 Clock Groups
 
@@ -228,4 +228,5 @@ Multiple nodes
 
 
 ### Instructor
-**Vikas Sachdeva** - Semiconductor design professional with more than 17 years of experience in the VLSI Industry and also working as an Advisor, Tech and VLSI Coach and Trainer for vlsideepdive in his spare time.
+**[Vikas Sachdeva](https://www.linkedin.com/in/vikas-sachdeva-0849577/)** - Semiconductor design professional with more than 17 years of experience in the VLSI Industry and also working as an Advisor, Tech and VLSI Coach and Trainer for vlsideepdive in his spare time.
+**[Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/)** - Co-Founder at VLSI System Design(VSD).
