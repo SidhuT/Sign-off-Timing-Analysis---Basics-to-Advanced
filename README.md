@@ -10,7 +10,9 @@ In theworkshop, we covered all the basic concepts in STA and Timing constraints.
    
    [DAY 2](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced/blob/main/README.md#day-2)
    
-
+   [DAY 3](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced/blob/main/README.md#day-3)
+   
+   
 
 # **[DAY 1](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced/blob/main/README.md#day-1)**
 
@@ -146,7 +148,7 @@ STA Text Report
 
 <img width="800" alt="run_log" src="https://user-images.githubusercontent.com/125822919/220538101-c7fb4f05-355a-4b0d-a1dd-56d6615edaeb.png">
 
-# **[DAY 3]()**
+# **[DAY 3](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced/blob/main/README.md#day-3)**
 
 MultipleClocks
 
