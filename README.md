@@ -148,9 +148,22 @@ STA Text Report
 
 *•	‘cd lab3’*
 
+<img width="800" alt="run_tcl_1" src="https://user-images.githubusercontent.com/125822919/220539578-f86a958a-bff5-4533-a99a-1c517c516875.png">
+
+<img width="800" alt="s27_sdc" src="https://user-images.githubusercontent.com/125822919/220539599-d6fae898-d4c1-4266-9b36-3acc3ce6fc77.png">
+
+<img width="800" alt="s27_v" src="https://user-images.githubusercontent.com/125822919/220539618-eee4c7c1-1baf-483a-8f0f-fb73df967e06.png">
+
 *•	Run ‘sta run.tcl -exit | tee out.txt’*
 
+<img width="800" alt="run" src="https://user-images.githubusercontent.com/125822919/220539700-d5896b5e-8bea-4314-9c5e-4d66742b1e1c.png">
+
+<img width="800" alt="terminal" src="https://user-images.githubusercontent.com/125822919/220539717-99df026d-5146-470b-9f5a-d5b2f1705b11.png">
+
 *•	See the ouput – ‘leafpad out.txt’ and the SLACK is -217.323, observe why?*
+
+<img width="800" alt="out_txt_1" src="https://user-images.githubusercontent.com/125822919/220539766-6693b498-5603-4fb8-a688-05858f3c400f.png">
+
 
 *•	And the path for that design in ‘out.txt’ is*
 
@@ -160,8 +173,15 @@ STA Text Report
 
 *“report_checks -from F1/CK -endpoint_count 100”*
 
+<img width="800" alt="run_tcl 2" src="https://user-images.githubusercontent.com/125822919/220539359-4772fe13-1d11-4ac8-940e-d3351363f8f1.png">
+
 *•	Again run ‘sta run.tcl -exit | tee out.txt’.*
 
+<img width="800" alt="out_txt_2_1" src="https://user-images.githubusercontent.com/125822919/220539411-79fda4e8-7fb3-4778-8f94-93d7011e5456.png">
+<img width="800" alt="out_txt_2_2" src="https://user-images.githubusercontent.com/125822919/220539428-11a68e3f-ee75-4d1b-8e87-81c5722046e6.png">
+<img width="800" alt="out_txt_2_3" src="https://user-images.githubusercontent.com/125822919/220539436-8fa24edc-70fb-4e60-96cc-a21a67886ee7.png">
+<img width="800" alt="out_txt_2_4" src="https://user-images.githubusercontent.com/125822919/220539451-0f45e902-20ba-4b89-bad2-6895eb8c8b1d.png">
+<img width="800" alt="out_txt_2_5" src="https://user-images.githubusercontent.com/125822919/220539465-a4f89c8f-435f-433e-8458-b7b3f235b07e.png">
 
 ## **DAY 4**
 ### **LAB 6 & Lab 7**
