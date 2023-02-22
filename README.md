@@ -97,7 +97,7 @@ STA Text Report
 
 <img width="800" alt="run_tcl" src="https://user-images.githubusercontent.com/125822919/220536642-f8914b35-aa9c-49f4-9d4a-a0737dd55cd2.png">
 
-<img width="800" alt="simple_sdc" src="https://user-images.githubusercontent.com/125822919/220536841-789b2461-9739-4eb
+<img width="800" alt="simple_sdc" src="https://user-images.githubusercontent.com/125822919/220536841-789b2461-9739-4eb">
 
 <img width="800" alt="simple_v" src="https://user-images.githubusercontent.com/125822919/220536952-47b7e3ad-0efc-4ec8-933e-5805829e37c5.png">
                                                                                                                                              
@@ -109,6 +109,7 @@ STA Text Report
 <img width="800" alt="simple_max_lib" src="https://user-images.githubusercontent.com/125822919/220536712-8c71e3a1-970a-4f46-8c64-8d62a7e390d9.png">
 <img width="800" alt="simple_min_lib" src="https://user-images.githubusercontent.com/125822919/220536803-b26b7167-7bc2-4908-8514-78d3db0c05ad.png">
 
+                                                                                                                                                  
 ### **•	Exercise:**
 
   *o	All cells in ‘simple_max.lib’ – 211 cells (30 INV + 30 NAND2 + 30 NAND3 + 30 NAND4 + 30 NOR2 + 30 NOR3 + 30 NOR4 + 1 DFF)*
