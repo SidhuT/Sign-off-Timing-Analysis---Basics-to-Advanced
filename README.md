@@ -12,6 +12,10 @@ In theworkshop, we covered all the basic concepts in STA and Timing constraints.
    
    [DAY 3](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced/blob/main/README.md#day-3)
    
+   [DAY 4](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced/blob/main/README.md#day-4)
+   
+   [DAY 5](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced/blob/main/README.md#day-5)
+   
    
 
 # **[DAY 1](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced/blob/main/README.md#day-1)**
@@ -227,6 +231,9 @@ Multiple nodes
 
 
 
-### Instructor
+### Instructors:
+
 **[Vikas Sachdeva](https://www.linkedin.com/in/vikas-sachdeva-0849577/)** - Semiconductor design professional with more than 17 years of experience in the VLSI Industry and also working as an Advisor, Tech and VLSI Coach and Trainer for vlsideepdive in his spare time.
+
+
 **[Kunal Ghosh](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/)** - Co-Founder at VLSI System Design(VSD).
