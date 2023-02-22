@@ -1,4 +1,4 @@
-#**[Sign-off-Timing-Analysis - Basics-to-Advanced](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced)**
+# **[Sign-off-Timing-Analysis - Basics-to-Advanced](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced)**
 
 5- day workshop where I covered all the basic concepts in STA and Timing constraints.
 Static timing analysis (STA) is a method of validating the timing performance of a design by checking all possible paths for timing violations. STA breaks a design down into timing paths, calculates the signal propagation delay along each path, and checks for violations of timing constraints inside the design and at the input/output interface.
