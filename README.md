@@ -6,8 +6,8 @@ Static timing analysis (STA) is a method of validating the timing performance of
 In theworkshop, we covered all the basic concepts in STA and Timing constraints. It started with basics of Static Timing Analysis, timing paths, startpoint, endpoint and combinational logic definitions. It explainsed setup and hold checks, how STA tools calculate setup and hold violations. Then it covered all aspects of STA like multiple types of timing paths, design rule checks, checks on async pins and clock gates. Then we go into slightly advanced topics like Time borrowing on latches, timing arcs, cell delays and models, impact of clock network on STA. Since STA and timing constraints go hand in hand the workshop covered basics of all the timing constraints that an engineer should know for STA like clock definitions, clock groups, clock characteristics, port delays and timing exceptions. Each day of the workshop we applied the concepts that I have leant that day on practical examples.
 
 ## Tool - OpenSTA
-
-[DAY 1](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced/blob/main/README.md#day-1)
+    [DAY 1](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced/blob/main/README.md#day-1)
+[DAY 2](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced/blob/main/README.md#day-2)
 
 
 # **[DAY 1](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced/blob/main/README.md#day-1)**
@@ -78,7 +78,7 @@ OpenSTA is architected to be easily bolted on to other tools as a timing engine.
 <img width="800" alt="run_log_2" src="https://user-images.githubusercontent.com/125822919/220534842-ffae7a6b-1397-465e-8b35-2d5298cc3d4a.png">
 
 
-# **[DAY 2]()**
+# **[DAY 2](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced/blob/main/README.md#day-2)**
 
 Gained knowledge on topics:
 
