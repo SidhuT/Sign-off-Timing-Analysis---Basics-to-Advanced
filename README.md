@@ -133,14 +133,34 @@ STA Text Report
 
 *•	Add ‘report_timing -num_paths 5’ in ‘run.tcl’ and run ‘sta run.tcl -exit | tee run.log’.*
 
-<img width="080" alt="Terminal_run" src="https://user-images.githubusercontent.com/125822919/220537989-2180d188-25d0-4939-ad8a-ba1ef4298c08.png">
+<img width="800" alt="Terminal_run" src="https://user-images.githubusercontent.com/125822919/220537989-2180d188-25d0-4939-ad8a-ba1ef4298c08.png">
 
 *•	Open ‘leafpad run.log’ file and observe and understand report.*
 
-<img width="1080" alt="run_log" src="https://user-images.githubusercontent.com/125822919/220538101-c7fb4f05-355a-4b0d-a1dd-56d6615edaeb.png">
+<img width="800" alt="run_log" src="https://user-images.githubusercontent.com/125822919/220538101-c7fb4f05-355a-4b0d-a1dd-56d6615edaeb.png">
 
 ## **DAY 3**
+
+
 ### *LAB 3*
+
+*•	Open Lab3 in ‘vlsideepdive_openSTA_labs’*
+
+*•	‘cd lab3’*
+
+*•	Run ‘sta run.tcl -exit | tee out.txt’*
+
+*•	See the ouput – ‘leafpad out.txt’ and the SLACK is -217.323, observe why?*
+
+*•	And the path for that design in ‘out.txt’ is*
+
+    *“F1:CKU3U4U5:A1U7:A2F2:D”*
+    
+*•	Changing the number of paths being reported to 100, add this command in ‘run.tcl’ file by ‘leafpad run.tcl’.*
+
+*“report_checks -from F1/CK -endpoint_count 100”*
+
+*•	Again run ‘sta run.tcl -exit | tee out.txt’.*
 
 
 ## **DAY 4**
