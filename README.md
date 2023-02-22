@@ -143,6 +143,15 @@ STA Text Report
 
 # **DAY 3**
 
+MultipleClocks
+
+Timing Arc's and Timing Sence
+
+Cell dalays and Clock networks
+
+Setup and Hold checks detailed
+
+STA Text report
 
 ## *LAB 3 - Understanding full reg to reg STA analysis, slack computation and review setup check report*
 
@@ -185,6 +194,13 @@ STA Text Report
 
 # **DAY 4**
 
+CROSSTALK and NOISE
+
+Operating nodes and other variations
+
+Clock Gating Checks
+
+Checks on Asyn Pins
 
 ## **LAB 6 & Lab 7 - Understanding clock gating check and async pin checks**
 
@@ -192,6 +208,13 @@ STA Text Report
 
 # **DAY 5**
 
+Clock Groups
+
+Clock Properties
+
+Timing exceptions
+
+Multiple nodes
 
 ## *LAB 4 - Revisit slack computation, understand CRPR and ECO insertion*
 
