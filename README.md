@@ -216,7 +216,46 @@ Checks on Asyn Pins
 
 ## **LAB 6 & Lab 7 - Understanding clock gating check and async pin checks**
 
+### Lab 6 - Clock Gating checks
 
+Type 'cd lab6'
+
+<img width="800" alt="s27_v" src="https://user-images.githubusercontent.com/125822919/220548958-d50ac055-8f61-4536-8066-ec6df62b5d22.png">
+
+<img width="800" alt="s27_sdc" src="https://user-images.githubusercontent.com/125822919/220548972-295338c6-4a18-4d5d-94f4-260cf79bd0d0.png">
+
+Tpye 'leafpad run.tcl'
+
+<img width="800" alt="run_tcl" src="https://user-images.githubusercontent.com/125822919/220549018-3db0430f-b571-41ec-90ea-2ad75b96365e.png">
+
+Run 'sta run.tcl -exit | tee run.log'
+
+<img width="800" alt="run_log_1" src="https://user-images.githubusercontent.com/125822919/220549046-ca95908d-579f-4495-8482-4a18bf77efd4.png">
+<img width="800" alt="run_log_2" src="https://user-images.githubusercontent.com/125822919/220549053-f0a04c8d-fc84-478a-8b56-0325b06e119a.png">
+
+*Analysied slack on clock gatting path*
+
+### Lab 7 - Async Pins Checks
+
+Type 'cd lab7'
+
+<img width="1084" alt="s27_v" src="https://user-images.githubusercontent.com/125822919/220549285-721c9515-3ac4-4c06-b58a-7cba8e460aed.png">
+
+<img width="1084" alt="s27_sdc" src="https://user-images.githubusercontent.com/125822919/220549300-8a639d99-1ad1-4f55-a87a-dd585478fa7f.png">
+
+Type 'leafpad run.tcl'
+
+<img width="1084" alt="run_tcl" src="https://user-images.githubusercontent.com/125822919/220549360-c146c916-0338-44d8-bab8-eeac2ed5f608.png">
+
+Run 'sta run.tcl -exit | tee run.log'
+
+<img width="1084" alt="run_terminal" src="https://user-images.githubusercontent.com/125822919/220549440-be50c71e-de07-420e-b71f-43d8a8664e87.png">
+
+Type 'leafpad run.log'
+
+<img width="1084" alt="run_log" src="https://user-images.githubusercontent.com/125822919/220549538-32a5be0a-5503-4aa0-b50c-f43de37fbe53.png">
+
+*Analysied slack reset path*
 
 # **[DAY 5](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced/blob/main/README.md#day-5)**
 
@@ -230,9 +269,15 @@ Multiple nodes
 
 ## *LAB 4 - Revisit slack computation, understand CRPR and ECO insertion*
 
+### Slack computation
 
 
-### Instructors:
+
+### Common Path Pessimism Removal(CPPR)
+
+### ECO – Engineering Change Order
+
+# Instructors:
 
 **[Vikas Sachdeva](https://www.linkedin.com/in/vikas-sachdeva-0849577/)** - Semiconductor design professional with more than 17 years of experience in the VLSI Industry and also working as an Advisor, Tech and VLSI Coach and Trainer for vlsideepdive in his spare time.
 
