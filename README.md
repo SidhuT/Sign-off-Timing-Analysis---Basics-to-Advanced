@@ -1,4 +1,4 @@
-# **Sign-off-Timing-Analysis - Basics-to-Advanced**
+# **[Sign-off-Timing-Analysis - Basics-to-Advanced]()**
 
 5- day workshop where I covered all the basic concepts in STA and Timing constraints.
 Static timing analysis (STA) is a method of validating the timing performance of a design by checking all possible paths for timing violations. STA breaks a design down into timing paths, calculates the signal propagation delay along each path, and checks for violations of timing constraints inside the design and at the input/output interface.
@@ -6,6 +6,9 @@ Static timing analysis (STA) is a method of validating the timing performance of
 In theworkshop, we covered all the basic concepts in STA and Timing constraints. It started with basics of Static Timing Analysis, timing paths, startpoint, endpoint and combinational logic definitions. It explainsed setup and hold checks, how STA tools calculate setup and hold violations. Then it covered all aspects of STA like multiple types of timing paths, design rule checks, checks on async pins and clock gates. Then we go into slightly advanced topics like Time borrowing on latches, timing arcs, cell delays and models, impact of clock network on STA. Since STA and timing constraints go hand in hand the workshop covered basics of all the timing constraints that an engineer should know for STA like clock definitions, clock groups, clock characteristics, port delays and timing exceptions. Each day of the workshop we applied the concepts that I have leant that day on practical examples.
 
 ## Tool - OpenSTA
+
+[DAY 1](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced/blob/main/README.md#day-1)
+
 
 # **[DAY 1](https://github.com/SidhuT/Sign-off-Timing-Analysis---Basics-to-Advanced/blob/main/README.md#day-1)**
 
@@ -75,7 +78,7 @@ OpenSTA is architected to be easily bolted on to other tools as a timing engine.
 <img width="800" alt="run_log_2" src="https://user-images.githubusercontent.com/125822919/220534842-ffae7a6b-1397-465e-8b35-2d5298cc3d4a.png">
 
 
-# **DAY 2**
+# **[DAY 2]()**
 
 Gained knowledge on topics:
 
@@ -141,7 +144,7 @@ STA Text Report
 
 <img width="800" alt="run_log" src="https://user-images.githubusercontent.com/125822919/220538101-c7fb4f05-355a-4b0d-a1dd-56d6615edaeb.png">
 
-# **DAY 3**
+# **[DAY 3]()**
 
 MultipleClocks
 
@@ -192,7 +195,7 @@ STA Text report
 <img width="800" alt="out_txt_2_4" src="https://user-images.githubusercontent.com/125822919/220539451-0f45e902-20ba-4b89-bad2-6895eb8c8b1d.png">
 <img width="800" alt="out_txt_2_5" src="https://user-images.githubusercontent.com/125822919/220539465-a4f89c8f-435f-433e-8458-b7b3f235b07e.png">
 
-# **DAY 4**
+# **[DAY 4]**
 
 CROSSTALK and NOISE
 
@@ -206,7 +209,7 @@ Checks on Asyn Pins
 
 
 
-# **DAY 5**
+# **[DAY 5]()**
 
 Clock Groups
 
