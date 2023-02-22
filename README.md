@@ -46,19 +46,19 @@ OpenSTA is architected to be easily bolted on to other tools as a timing engine.
 
 *•	‘ls’*
 
-*•	“run.log run.tcl simple.sdc simple.v”
+*•	“run.log run.tcl simple.sdc simple.v”*
 
 *•	To view files, enter “leafpad (FILE NAME WITH EXTENSION)”*
 
-*•	“leafpad simple.v” -- Design in Verilog format
+*•	“leafpad simple.v” -- Design in Verilog format*
 
 <img width="800" alt="Simple_v" src="https://user-images.githubusercontent.com/125822919/220534603-48be62a5-56a3-43ad-ae1d-30f6b81d08e0.png">
 
-*•	“leafpad simple.sdc” – Design Constraints file
+*•	“leafpad simple.sdc” – Design Constraints file*
 
 <img width="800" alt="simple_sdc" src="https://user-images.githubusercontent.com/125822919/220534659-2dbe845e-ee69-4a47-a500-e9c416684c30.png">
 
-*•	“leafpad run.tcl” – Commands file to run in openSTA tool
+*•	“leafpad run.tcl” – Commands file to run in openSTA tool*
 
 <img width="800" alt="run_tcl" src="https://user-images.githubusercontent.com/125822919/220534714-f35c58cb-72ef-40e5-8e6e-d2d38a41470e.png">
 
@@ -67,7 +67,7 @@ OpenSTA is architected to be easily bolted on to other tools as a timing engine.
 <img width="800" alt="terminal_1" src="https://user-images.githubusercontent.com/125822919/220534789-c6af8b70-425d-49a5-a098-576ea633e048.png">
 <img width="800" alt="terminal_2" src="https://user-images.githubusercontent.com/125822919/220534799-b7e9c2ee-fc75-457d-8359-c712b2a7036f.png">
 
-*•	“leafpad run.log” – Opens Log file
+*•	“leafpad run.log” – Opens Log file*
 
 <img width="800" alt="run_log_1" src="https://user-images.githubusercontent.com/125822919/220534836-dc8202a4-ad0b-4c3a-b56b-4a0a1ca70ff9.png">
 <img width="800" alt="run_log_2" src="https://user-images.githubusercontent.com/125822919/220534842-ffae7a6b-1397-465e-8b35-2d5298cc3d4a.png">
@@ -93,9 +93,23 @@ STA Text Report
 
 *•	Type ‘cd lab2’ and then ‘ls’ then all files in lab2 appears.*
 
+<img width="800" alt="run_log" src="https://user-images.githubusercontent.com/125822919/220536550-aa20b323-8f4f-4e25-80f6-fcd3dabe3743.png">
+
+<img width="800" alt="run_tcl" src="https://user-images.githubusercontent.com/125822919/220536642-f8914b35-aa9c-49f4-9d4a-a0737dd55cd2.png">
+
+<img width="800" alt="simple_sdc" src="https://user-images.githubusercontent.com/125822919/220536841-789b2461-9739-4eb
+
+<img width="800" alt="simple_v" src="https://user-images.githubusercontent.com/125822919/220536952-47b7e3ad-0efc-4ec8-933e-5805829e37c5.png">
+                                                                                                                                             
+<img width="8000" alt="Terminal_run" src="https://user-images.githubusercontent.com/125822919/220536994-230b759d-21d0-4689-87ee-ad81b698bb2a.png">
+
+                                                                                                                                             
 *•	Open ‘simple_min.lib’ using ‘leafpad simple_min.lib’; open ‘simple_max.lib’ using ‘leafpad simple_max.lib’, then compare.*
 
-**•	Exercise:**
+<img width="800" alt="simple_max_lib" src="https://user-images.githubusercontent.com/125822919/220536712-8c71e3a1-970a-4f46-8c64-8d62a7e390d9.png">
+<img width="800" alt="simple_min_lib" src="https://user-images.githubusercontent.com/125822919/220536803-b26b7167-7bc2-4908-8514-78d3db0c05ad.png">
+
+### **•	Exercise:**
 
   *o	All cells in ‘simple_max.lib’ – 211 cells (30 INV + 30 NAND2 + 30 NAND3 + 30 NAND4 + 30 NOR2 + 30 NOR3 + 30 NOR4 + 1 DFF)*
 
