@@ -30,7 +30,7 @@ OpenSTA is architected to be easily bolted on to other tools as a timing engine.
 
 *•	‘git clone https://github.com/vikisachdeva/openSTA_sta_workshop’ – adding files from Github*
 
-*•	‘ls’ – shows it.*
+*•	Type ‘ls’ – shows added files.*
 
 *•	‘cd openSTA_sta_workshop’ – opens file.*
 
@@ -52,27 +52,26 @@ OpenSTA is architected to be easily bolted on to other tools as a timing engine.
 
 *•	“leafpad simple.v” -- Design in Verilog format
 
+<img width="800" alt="Simple_v" src="https://user-images.githubusercontent.com/125822919/220534603-48be62a5-56a3-43ad-ae1d-30f6b81d08e0.png">
+
 *•	“leafpad simple.sdc” – Design Constraints file
+
+<img width="800" alt="simple_sdc" src="https://user-images.githubusercontent.com/125822919/220534659-2dbe845e-ee69-4a47-a500-e9c416684c30.png">
 
 *•	“leafpad run.tcl” – Commands file to run in openSTA tool
 
-*•	“leafpad run.log” – Opens Log file
+<img width="800" alt="run_tcl" src="https://user-images.githubusercontent.com/125822919/220534714-f35c58cb-72ef-40e5-8e6e-d2d38a41470e.png">
 
 *•	“sta run.tcl -exit | tee run.log” -- to run the program*
 
+<img width="800" alt="terminal_1" src="https://user-images.githubusercontent.com/125822919/220534789-c6af8b70-425d-49a5-a098-576ea633e048.png">
+<img width="800" alt="terminal_2" src="https://user-images.githubusercontent.com/125822919/220534799-b7e9c2ee-fc75-457d-8359-c712b2a7036f.png">
 
+*•	“leafpad run.log” – Opens Log file
 
-<img width="800" alt="run_log_1" src="https://user-images.githubusercontent.com/125822919/220407405-2cac5241-cdbe-4d10-859b-6bf1b29db761.png">
+<img width="800" alt="run_log_1" src="https://user-images.githubusercontent.com/125822919/220534836-dc8202a4-ad0b-4c3a-b56b-4a0a1ca70ff9.png">
+<img width="800" alt="run_log_2" src="https://user-images.githubusercontent.com/125822919/220534842-ffae7a6b-1397-465e-8b35-2d5298cc3d4a.png">
 
-<img width="800" alt="run_log_2" src="https://user-images.githubusercontent.com/125822919/220407416-4d06ab9c-64c7-456b-8ed2-08d50839c8a4.png">
-
-<img width="800" alt="run_tcl" src="https://user-images.githubusercontent.com/125822919/220407421-be2c83ab-d8a2-404c-b256-e32ca690fe21.png">
-
-<img width="800" alt="simple_sdc" src="https://user-images.githubusercontent.com/125822919/220407424-6fe525c9-506a-42ed-921c-c25109c181a2.png">
-
-<img width="800" alt="Simple_v" src="https://user-images.githubusercontent.com/125822919/220407430-fbb6ec1e-b881-4f90-9ce0-376510b1d8ea.png">
-
-<img width="800" alt="terminal_1" src="https://user-images.githubusercontent.com/125822919/220407432-ee614873-1219-46ef-a4b9-9f851f7f2cc7.png"><img width="800" alt="terminal_2" src="https://user-images.githubusercontent.com/125822919/220407438-15aaafd4-bca7-4d78-bd2d-57d5e06f0601.png">
 
 ## **DAY 2**
 ### *LAB 2*
