@@ -8,7 +8,18 @@ In theworkshop, we covered all the basic concepts in STA and Timing constraints.
 
 ## **DAY 1**
 
+Studied topics like STA definition, timing paths, timing path elements, setup and hold checks, slack calculation, SDC overview, Clocks, generated clocks and boundary constraints.
 ### *LAB 1*
+
+#### **OpenSTA : Introduction**
+OpenSTA is a gate level static timing verifier. As a stand-alone executable it can be used to verify the timing of a design using standard file formats.
+• Verilognetlist
+• Libertylibrary
+• SDCtimingconstraints 
+• SDFdelayannotation 
+• SPEFparasitics
+OpenSTA is architected to be easily bolted on to other tools as a timing engine. By using a network adapter, OpenSTA can access the host netlist data structures without duplicating them.
+
 
 <img width="800" alt="run_log_1" src="https://user-images.githubusercontent.com/125822919/220407405-2cac5241-cdbe-4d10-859b-6bf1b29db761.png">
 
