@@ -154,7 +154,7 @@ STA Text Report
 
 *•	And the path for that design in ‘out.txt’ is*
 
-    *“F1:CKU3U4U5:A1U7:A2F2:D”*
+    *“F1:CK->U3->U4->U5:A1->U7:A2->F2:D”*
     
 *•	Changing the number of paths being reported to 100, add this command in ‘run.tcl’ file by ‘leafpad run.tcl’.*
 
