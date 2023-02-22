@@ -271,9 +271,13 @@ Multiple nodes
 
 ### Slack computation
 
-
+<img width="1084" alt="run_tcl 2" src="https://user-images.githubusercontent.com/125822919/220652377-c97efce0-bdf6-45b0-a527-2ed36958a961.png">
 
 ### Common Path Pessimism Removal(CPPR)
+
+<img width="1046" alt="s27_sdc" src="https://user-images.githubusercontent.com/125822919/220652744-cd0d42f3-072a-445e-9fc9-8dba6f83a2c5.png">
+
+<img width="624" alt="s27_v" src="https://user-images.githubusercontent.com/125822919/220652780-39635f4a-3a09-46d5-8c88-13e5d2482f15.png">
 
 ### ECO – Engineering Change Order
 
