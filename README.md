@@ -11,14 +11,40 @@ In theworkshop, we covered all the basic concepts in STA and Timing constraints.
 Studied topics like STA definition, timing paths, timing path elements, setup and hold checks, slack calculation, SDC overview, Clocks, generated clocks and boundary constraints.
 ### *LAB 1*
 
-#### **OpenSTA : Introduction**
+#### **OpenSTA (Static Timing Analysis tool) : Introduction**
 OpenSTA is a gate level static timing verifier. As a stand-alone executable it can be used to verify the timing of a design using standard file formats.
+
 • Verilognetlist
+
 • Libertylibrary
+
 • SDCtimingconstraints 
+
 • SDFdelayannotation 
+
 • SPEFparasitics
-OpenSTA is architected to be easily bolted on to other tools as a timing engine. By using a network adapter, OpenSTA can access the host netlist data structures without duplicating them.
+
+OpenSTA is architected to be easily bolted on to other tools as a timing engine. By using a network adapter, OpenSTA can access the host netlist data structures without duplicating them. An STA tool takes design, standard cell, constraints as input and performtiming checks on the design, delay calculation and analysis.
+
+## Below instructions are used to complete the lab
+
+*•	‘git clone https://github.com/vikisachdeva/openSTA_sta_workshop’ – adding files from Github*
+*•	‘ls’ – shows it.*
+*•	‘cd openSTA_sta_workshop’ – opens file.*
+*•	Tpye ‘ls’ to open respective file*
+*•	‘cd vlsideepdive_openSTA_labs’*
+*•	‘ls’*
+*•	“lab1 lab2 lab3 lab4 lab5 lab6 lab7 sky130_fd_sc_hd_tt_025C_1v80.lib”*
+*•	‘cd lab1’*
+*•	‘ls’*
+*•	“run.log run.tcl simple.sdc simple.v”
+*•	to view files, enter “leafpad (FILE NAME WITH EXTENSION)”*
+*•	“leafpad simple.v” -- Design in Verilog format
+•	“leafpad simple.sdc” – Design Constraints file
+•	“leafpad run.tcl” – Commands file to run in openSTA tool
+•	“leafpad run.log” – Opens Log file
+•	“sta run.tcl -exit | tee run.log” -- to run the program*
+
 
 
 <img width="800" alt="run_log_1" src="https://user-images.githubusercontent.com/125822919/220407405-2cac5241-cdbe-4d10-859b-6bf1b29db761.png">
