@@ -9,7 +9,8 @@ In theworkshop, we covered all the basic concepts in STA and Timing constraints.
 ## **DAY 1**
 
 Studied topics like STA definition, timing paths, timing path elements, setup and hold checks, slack calculation, SDC overview, Clocks, generated clocks and boundary constraints.
-### *LAB 1*
+
+### *LAB 1 - Opensta Introduction, Inputs to Opensta, Constraints creation and Opensta Runscript*
 
 #### **OpenSTA (Static Timing Analysis tool) : Introduction**
 OpenSTA is a gate level static timing verifier. As a stand-alone executable it can be used to verify the timing of a design using standard file formats.
@@ -85,7 +86,7 @@ Latch Timing
 
 STA Text Report
 
-### *LAB 2*
+### *LAB 2 - Liberty Files, SPEF, timing reports*
 
 *•	Liberty file - .lib file is an ASCII representation of the timing and power parameters associated with any cell in a particular semiconductor technology and contains timing models and data to calcumax like I/O delay paths, Timing check values, Interconnect delays.*
 
@@ -142,7 +143,7 @@ STA Text Report
 ## **DAY 3**
 
 
-### *LAB 3*
+### *LAB 3 - Understanding full reg to reg STA analysis, slack computation and review setup check report*
 
 *•	Open Lab3 in ‘vlsideepdive_openSTA_labs’*
 
@@ -157,8 +158,6 @@ STA Text Report
 *•	Run ‘sta run.tcl -exit | tee out.txt’*
 
 <img width="800" alt="run" src="https://user-images.githubusercontent.com/125822919/220539700-d5896b5e-8bea-4314-9c5e-4d66742b1e1c.png">
-
-<img width="800" alt="terminal" src="https://user-images.githubusercontent.com/125822919/220539717-99df026d-5146-470b-9f5a-d5b2f1705b11.png">
 
 *•	See the ouput – ‘leafpad out.txt’ and the SLACK is -217.323, observe why?*
 
@@ -184,12 +183,16 @@ STA Text Report
 <img width="800" alt="out_txt_2_5" src="https://user-images.githubusercontent.com/125822919/220539465-a4f89c8f-435f-433e-8458-b7b3f235b07e.png">
 
 ## **DAY 4**
-### **LAB 6 & Lab 7**
+
+
+### **LAB 6 & Lab 7 - Understanding clock gating check and async pin checks**
 
 
 
 ## **DAY 5**
-### *LAB 4*
+
+
+### *LAB 4 - Revisit slack computation, understand CRPR and ECO insertion*
 
 
 
