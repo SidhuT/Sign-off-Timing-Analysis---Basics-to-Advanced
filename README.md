@@ -29,21 +29,36 @@ OpenSTA is architected to be easily bolted on to other tools as a timing engine.
 ## Below instructions are used to complete the lab
 
 *•	‘git clone https://github.com/vikisachdeva/openSTA_sta_workshop’ – adding files from Github*
+
 *•	‘ls’ – shows it.*
+
 *•	‘cd openSTA_sta_workshop’ – opens file.*
+
 *•	Tpye ‘ls’ to open respective file*
-*•	‘cd vlsideepdive_openSTA_labs’*
-*•	‘ls’*
+
+*•	Enter ‘cd vlsideepdive_openSTA_labs’*
+
+*•	Type ‘ls’*
+
 *•	“lab1 lab2 lab3 lab4 lab5 lab6 lab7 sky130_fd_sc_hd_tt_025C_1v80.lib”*
+
 *•	‘cd lab1’*
+
 *•	‘ls’*
+
 *•	“run.log run.tcl simple.sdc simple.v”
-*•	to view files, enter “leafpad (FILE NAME WITH EXTENSION)”*
+
+*•	To view files, enter “leafpad (FILE NAME WITH EXTENSION)”*
+
 *•	“leafpad simple.v” -- Design in Verilog format
-•	“leafpad simple.sdc” – Design Constraints file
-•	“leafpad run.tcl” – Commands file to run in openSTA tool
-•	“leafpad run.log” – Opens Log file
-•	“sta run.tcl -exit | tee run.log” -- to run the program*
+
+*•	“leafpad simple.sdc” – Design Constraints file
+
+*•	“leafpad run.tcl” – Commands file to run in openSTA tool
+
+*•	“leafpad run.log” – Opens Log file
+
+*•	“sta run.tcl -exit | tee run.log” -- to run the program*
 
 
 
