@@ -7,7 +7,7 @@ In theworkshop, we covered all the basic concepts in STA and Timing constraints.
 
 ## Tool - OpenSTA
 
-# **DAY 1**
+# **{DAY 1}**
 
 Studied topics like STA definition, timing paths, timing path elements, setup and hold checks, slack calculation, SDC overview, Clocks, generated clocks and boundary constraints.
 
