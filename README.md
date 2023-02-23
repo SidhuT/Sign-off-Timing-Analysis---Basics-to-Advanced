@@ -267,7 +267,7 @@ Timing exceptions
 
 Multiple nodes
 
-## *LAB 4 - Revisit slack computation, understand CRPR and ECO insertion*
+## *LAB 3 - Revisit slack computation, understand CRPR and ECO insertion*
 
 ### Slack computation
 
@@ -277,13 +277,20 @@ Multiple nodes
 
 *Analysied how the computation is done and why the slack values are varying for paths.*
 
+<img width="800" alt="out_txt_2_1" src="https://user-images.githubusercontent.com/125822919/220951263-accf3842-0e36-4b35-b7f6-c51c7cba0983.png">
+<img width="800" alt="out_txt_2_2" src="https://user-images.githubusercontent.com/125822919/220951526-bcf03d7a-9e4f-4fc2-a763-f3588f19e412.png">
+<img width="800" alt="out_txt_2_3" src="https://user-images.githubusercontent.com/125822919/220951555-3b89339d-d490-4126-8838-ce9902694d9f.png">
+<img width="800" alt="out_txt_2_4" src="https://user-images.githubusercontent.com/125822919/220951591-b2b7dea7-5bb8-4bba-a96a-5e12e96e54c8.png">
+<img width="800" alt="out_txt_2_5" src="https://user-images.githubusercontent.com/125822919/220951619-3cd1ca36-29c2-42bf-9f63-50c596123463.png">
+
+
 ### Common Path Pessimism Removal(CPPR)
 
 <img width="800" alt="s27_sdc" src="https://user-images.githubusercontent.com/125822919/220652744-cd0d42f3-072a-445e-9fc9-8dba6f83a2c5.png">
 
 <img width="600" alt="s27_v" src="https://user-images.githubusercontent.com/125822919/220652780-39635f4a-3a09-46d5-8c88-13e5d2482f15.png">
 
-*Here the CPPR is enable to 'o' by using command 'ste sta_crpr_enabled 0'.*
+*Here the CPPR is enable to 'o' by using command 'set sta_crpr_enabled 0'.*
 
 <img width="800" alt="run_tcl_1" src="https://user-images.githubusercontent.com/125822919/220942124-a7661531-3364-47e2-8b04-20f1229f40bf.png">
 
@@ -291,7 +298,7 @@ Multiple nodes
 
 <img width="800" alt="run_log_1" src="https://user-images.githubusercontent.com/125822919/220942139-41687c73-a2b7-4322-84b9-b074b417fbc3.png">
 
-*Here the CPPR is enable to 'o' by using command 'ste sta_crpr_enabled 0'.*
+*Here the CPPR is enable to '1' by using command 'set sta_crpr_enabled 1'.*
 
 <img width="600" alt="run_tcl_2" src="https://user-images.githubusercontent.com/125822919/220942173-1f7f1455-a53e-40b4-a79e-57a8ebfe7b9f.png">
 
@@ -325,6 +332,12 @@ Multiple nodes
 *Open 's27_eco.v' file using command 'leafpad s27_eco.v'*
 
 <img width="800" alt="s27_eco_v" src="https://user-images.githubusercontent.com/125822919/220940981-09d535f2-dd3e-4128-994d-06e6757395be.png">
+
+*Run 's27_eco.v' file making some changes in the 'run.tcl' file.*
+
+<img width="800" alt="Screenshot 2023-02-23 at 10 31 13 AM" src="https://user-images.githubusercontent.com/125822919/220955061-2c60b39a-6ae1-42b9-8a83-8b541a96d248.png">
+
+*Run 'sta run.tcl -exit | tee run.log' and observed the changes in the slack values*
 
 <img width="800" alt="run_log_21" src="https://user-images.githubusercontent.com/125822919/220941001-d2814855-5cf1-45e5-b8e8-7fb36416dc11.png">
 <img width="800" alt="run_log_22" src="https://user-images.githubusercontent.com/125822919/220941024-53e56530-e84f-4b6d-925c-7ec7309f9b1a.png">
