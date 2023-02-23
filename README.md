@@ -239,21 +239,21 @@ Run 'sta run.tcl -exit | tee run.log'
 
 Type 'cd lab7'
 
-<img width="1084" alt="s27_v" src="https://user-images.githubusercontent.com/125822919/220549285-721c9515-3ac4-4c06-b58a-7cba8e460aed.png">
+<img width="800" alt="s27_v" src="https://user-images.githubusercontent.com/125822919/220549285-721c9515-3ac4-4c06-b58a-7cba8e460aed.png">
 
-<img width="1084" alt="s27_sdc" src="https://user-images.githubusercontent.com/125822919/220549300-8a639d99-1ad1-4f55-a87a-dd585478fa7f.png">
+<img width="800" alt="s27_sdc" src="https://user-images.githubusercontent.com/125822919/220549300-8a639d99-1ad1-4f55-a87a-dd585478fa7f.png">
 
 Type 'leafpad run.tcl'
 
-<img width="1084" alt="run_tcl" src="https://user-images.githubusercontent.com/125822919/220549360-c146c916-0338-44d8-bab8-eeac2ed5f608.png">
+<img width="800" alt="run_tcl" src="https://user-images.githubusercontent.com/125822919/220549360-c146c916-0338-44d8-bab8-eeac2ed5f608.png">
 
 Run 'sta run.tcl -exit | tee run.log'
 
-<img width="1084" alt="run_terminal" src="https://user-images.githubusercontent.com/125822919/220549440-be50c71e-de07-420e-b71f-43d8a8664e87.png">
+<img width="800" alt="run_terminal" src="https://user-images.githubusercontent.com/125822919/220549440-be50c71e-de07-420e-b71f-43d8a8664e87.png">
 
 Type 'leafpad run.log'
 
-<img width="1084" alt="run_log" src="https://user-images.githubusercontent.com/125822919/220549538-32a5be0a-5503-4aa0-b50c-f43de37fbe53.png">
+<img width="800" alt="run_log" src="https://user-images.githubusercontent.com/125822919/220549538-32a5be0a-5503-4aa0-b50c-f43de37fbe53.png">
 
 *Analysied slack reset path*
 
@@ -271,17 +271,32 @@ Multiple nodes
 
 ### Slack computation
 
-<img width="1084" alt="run_tcl 2" src="https://user-images.githubusercontent.com/125822919/220652377-c97efce0-bdf6-45b0-a527-2ed36958a961.png">
+<img width="800" alt="run_tcl 2" src="https://user-images.githubusercontent.com/125822919/220652377-c97efce0-bdf6-45b0-a527-2ed36958a961.png">
 
 ### Common Path Pessimism Removal(CPPR)
 
-<img width="1046" alt="s27_sdc" src="https://user-images.githubusercontent.com/125822919/220652744-cd0d42f3-072a-445e-9fc9-8dba6f83a2c5.png">
+<img width="800" alt="s27_sdc" src="https://user-images.githubusercontent.com/125822919/220652744-cd0d42f3-072a-445e-9fc9-8dba6f83a2c5.png">
 
-<img width="624" alt="s27_v" src="https://user-images.githubusercontent.com/125822919/220652780-39635f4a-3a09-46d5-8c88-13e5d2482f15.png">
+<img width="600" alt="s27_v" src="https://user-images.githubusercontent.com/125822919/220652780-39635f4a-3a09-46d5-8c88-13e5d2482f15.png">
 
 ### ECO – Engineering Change Order
 
-# Instructors:
+<img width="800" alt="s27_v" src="https://user-images.githubusercontent.com/125822919/220940779-ee46dc60-7602-4f0e-8d07-6a0ab7b3d282.png">
+
+<img width="800" alt="s27_sdc" src="https://user-images.githubusercontent.com/125822919/220940810-3cd8c25e-4c34-4ec9-abfe-658325ed8bd4.png">
+
+<img width="800" alt="run_tcl_1" src="https://user-images.githubusercontent.com/125822919/220940875-6e6f2cc5-4461-4353-a301-0161521b1fd2.png">
+
+<img width="800" alt="run_log_11" src="https://user-images.githubusercontent.com/125822919/220940929-e8548bbf-8df0-4de4-859f-06e48ca7645f.png">
+<img width="800" alt="run_log_12" src="https://user-images.githubusercontent.com/125822919/220940947-fa0bc9b8-19dc-4403-8c5b-af0ca1d13bcd.png">
+
+<img width="800" alt="s27_eco_v" src="https://user-images.githubusercontent.com/125822919/220940981-09d535f2-dd3e-4128-994d-06e6757395be.png">
+
+<img width="800" alt="run_log_21" src="https://user-images.githubusercontent.com/125822919/220941001-d2814855-5cf1-45e5-b8e8-7fb36416dc11.png">
+<img width="800" alt="run_log_22" src="https://user-images.githubusercontent.com/125822919/220941024-53e56530-e84f-4b6d-925c-7ec7309f9b1a.png">
+
+
+# Acknowledgment:
 
 **[Vikas Sachdeva](https://www.linkedin.com/in/vikas-sachdeva-0849577/)** - Semiconductor design professional with more than 17 years of experience in the VLSI Industry and also working as an Advisor, Tech and VLSI Coach and Trainer for vlsideepdive in his spare time.
 
