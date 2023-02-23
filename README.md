@@ -271,7 +271,11 @@ Multiple nodes
 
 ### Slack computation
 
+*Calculated the Slack computation for every possible path from: "F1:CK->F2:D". *
+
 <img width="800" alt="run_tcl 2" src="https://user-images.githubusercontent.com/125822919/220652377-c97efce0-bdf6-45b0-a527-2ed36958a961.png">
+
+*Analysied how the computation is done and why the slack values are varying for paths.*
 
 ### Common Path Pessimism Removal(CPPR)
 
@@ -279,16 +283,46 @@ Multiple nodes
 
 <img width="600" alt="s27_v" src="https://user-images.githubusercontent.com/125822919/220652780-39635f4a-3a09-46d5-8c88-13e5d2482f15.png">
 
+*Here the CPPR is enable to 'o' by using command 'ste sta_crpr_enabled 0'.*
+
+<img width="800" alt="run_tcl_1" src="https://user-images.githubusercontent.com/125822919/220942124-a7661531-3364-47e2-8b04-20f1229f40bf.png">
+
+*Run 'sta run.tcl -exit | tee run.log'.* 
+
+<img width="800" alt="run_log_1" src="https://user-images.githubusercontent.com/125822919/220942139-41687c73-a2b7-4322-84b9-b074b417fbc3.png">
+
+*Here the CPPR is enable to 'o' by using command 'ste sta_crpr_enabled 0'.*
+
+<img width="600" alt="run_tcl_2" src="https://user-images.githubusercontent.com/125822919/220942173-1f7f1455-a53e-40b4-a79e-57a8ebfe7b9f.png">
+
+*Run 'sta run.tcl -exit | tee run.log'.* 
+
+<img width="800" alt="run_log_2" src="https://user-images.githubusercontent.com/125822919/220942193-1f9d3349-632f-41b8-b273-6b098229de71.png">
+
+*Here, we disabled the CPPR and added the new command in run.tcl i.e., 'report checks -path delay min max -fields {nets cap slew input pins\ -digits {4)'.*
+
+<img width="800" alt="run_tcl_3" src="https://user-images.githubusercontent.com/125822919/220942225-e7adf64b-9ca0-4ebd-a292-1727cea992c7.png">
+
+*Here is the detailed analysis.*
+
+<img width="800" alt="run_log_3" src="https://user-images.githubusercontent.com/125822919/220942248-12a4bce7-9bf1-4d47-b213-fa8f398b11d2.png">
+
+
+
 ### ECO – Engineering Change Order
 
 <img width="800" alt="s27_v" src="https://user-images.githubusercontent.com/125822919/220940779-ee46dc60-7602-4f0e-8d07-6a0ab7b3d282.png">
 
 <img width="800" alt="s27_sdc" src="https://user-images.githubusercontent.com/125822919/220940810-3cd8c25e-4c34-4ec9-abfe-658325ed8bd4.png">
 
+*Tpye 'cd lab5' and run 'sta run.tcl -exit | tee run.log'*
+
 <img width="800" alt="run_tcl_1" src="https://user-images.githubusercontent.com/125822919/220940875-6e6f2cc5-4461-4353-a301-0161521b1fd2.png">
 
 <img width="800" alt="run_log_11" src="https://user-images.githubusercontent.com/125822919/220940929-e8548bbf-8df0-4de4-859f-06e48ca7645f.png">
 <img width="800" alt="run_log_12" src="https://user-images.githubusercontent.com/125822919/220940947-fa0bc9b8-19dc-4403-8c5b-af0ca1d13bcd.png">
+
+*Open 's27_eco.v' file using command 'leafpad s27_eco.v'*
 
 <img width="800" alt="s27_eco_v" src="https://user-images.githubusercontent.com/125822919/220940981-09d535f2-dd3e-4128-994d-06e6757395be.png">
 
